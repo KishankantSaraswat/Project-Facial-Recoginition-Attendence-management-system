@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System using Facial Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d42a 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+        }
+        .button_1 {
+            height: 38px;
+            background: #e8491d;
+            border: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #fff;
+        }
+        .dark {
+            padding: 15px;
+            background: #35424a;
+            color: #fff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Attendance Management System using Facial Recognition</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#usage">Usage</a></li>
+                    <li><a href="#contributing">Contributing</a></li>
+                    <li><a href="#license">License</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="overview" class="container">
+        <h2>Overview</h2>
+        <p>
+            The Attendance Management System using Facial Recognition is a modern solution designed to automate the process of tracking and managing student attendance. By leveraging facial recognition technology, this system ensures accurate and efficient attendance tracking, eliminating the need for manual record-keeping.
+        </p>
+    </section>
+
+    <section id="features" class="container dark">
+        <h2>Features</h2>
+        <ul>
+            <li>Automated attendance tracking using facial recognition technology</li>
+            <li>Secure and accurate identification of students</li>
+            <li>Real-time attendance updates</li>
+            <li>Detailed attendance reports</li>
+            <li>Integration with existing student databases</li>
+        </ul>
+    </section>
+
+    <section id="installation" class="container">
+        <h2>Installation</h2>
+        <p>To install and set up the Attendance Management System, follow these steps:</p>
+        <ol>
+            <li>Clone the repository: <code>git clone https://github.com/yourusername/attendance-management-system.git</code></li>
+            <li>Navigate to the project directory: <code>cd attendance-management-system</code></li>
+            <li>Install the required dependencies: <code>pip install -r requirements.txt</code></li>
+            <li>Set up the database: <code>python setup_database.py</code></li>
+            <li>Run the application: <code>python app.py</code></li>
+        </ol>
+    </section>
+
+    <section id="usage" class="container dark">
+        <h2>Usage</h2>
+        <p>To use the Attendance Management System:</p>
+        <ol>
+            <li>Start the application by running <code>python app.py</code>.</li>
+            <li>Open a web browser and go to <code>http://localhost:5000</code>.</li>
+            <li>Follow the on-screen instructions to register students and take attendance.</li>
+        </ol>
+    </section>
+
+    <section id="contributing" class="container">
+        <h2>Contributing</h2>
+        <p>We welcome contributions to enhance the Attendance Management System. To contribute:</p>
+        <ol>
+            <li>Fork the repository.</li>
+            <li>Create a new branch: <code>git checkout -b feature-branch</code>.</li>
+            <li>Make your changes and commit them: <code>git commit -m 'Add some feature'</code>.</li>
+            <li>Push to the branch: <code>git push origin feature-branch</code>.</li>
+            <li>Create a new Pull Request.</li>
+        </ol>
+    </section>
+
+    <section id="license" class="container dark">
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+    </section>
+</body>
+</html>
